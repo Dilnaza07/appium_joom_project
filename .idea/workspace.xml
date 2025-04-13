@@ -4,31 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b69f3a29-ff93-4ecc-98f0-175814838d0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/Initializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/enums/AccountTitle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/generator/FakeRandomGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/helper/Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/helper/TestDescription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/locators/JoomHomeLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/screens/BaseScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/screens/JoomHomeScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/utils/UtilsMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+    <list default="true" id="b69f3a29-ff93-4ecc-98f0-175814838d0b" name="Changes" comment="добавлены зависимости и структура проекта">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/Initializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/Initializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +47,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Dilnaza07"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Dilnaza07/appium_joom_project.git",
+    "accountId": "03330598-d7b7-4634-9bee-3f5d139d419c"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -99,6 +91,19 @@
       <option name="presentableId" value="Default" />
       <updated>1744484975253</updated>
     </task>
+    <task id="LOCAL-00001" summary="добавлены зависимости и структура проекта">
+      <option name="closed" value="true" />
+      <created>1744523853604</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744523853604</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="добавлены зависимости и структура проекта" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены зависимости и структура проекта" />
   </component>
 </project>

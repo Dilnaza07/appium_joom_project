@@ -8,10 +8,10 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.io.InputStream;
 import java.net.URI;
+import java.net.URL;
 import java.util.Properties;
 
-import static io.appium.java_client.clipboard.ClipboardContentType.URL;
-
+@Slf4j
 public class Initializer {
     private static AppiumDriver driver;
     static Properties config = new Properties();
@@ -30,28 +30,28 @@ public class Initializer {
     }
 
 
-    public static AppiumDriver getDriver(){
-        if(driver == null){
+    public static AppiumDriver getDriver() {
+        if (driver == null) {
             initDriver();
         }
         return driver;
     }
 
 
-    private static void initDriver(){
+    private static void initDriver() {
         try {
             URI appiumServerURI = new URI(config.getProperty("appium.server.url"));
             URL appiumServerURL = appiumServerURI.toURL();
             driver = new AndroidDriver(appiumServerURL, getDesiredCapabilities());
             log.info("Driver initialized succesfully");
-        }catch (Exception e){
+        } catch (Exception e) {
             log.error("Driver initialization failed", e);
             throw new RuntimeException(e);
         }
     }
 
 
-    private static DesiredCapabilities getDesiredCapabilities(){
+    private static DesiredCapabilities getDesiredCapabilities() {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, config.getProperty("device.name"));
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, config.getProperty("platform.name"));
@@ -63,8 +63,8 @@ public class Initializer {
     }
 
 
-    public static void quitDriver(){
-        if(driver != null){
+    public static void quitDriver() {
+        if (driver != null) {
             driver.quit();
             driver = null;
         }

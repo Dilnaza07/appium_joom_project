@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b69f3a29-ff93-4ecc-98f0-175814838d0b" name="Changes" comment="добавлены зависимости и структура проекта">
+    <list default="true" id="b69f3a29-ff93-4ecc-98f0-175814838d0b" name="Changes" comment="добавлены AppiumDriver, DesiredCapabilities и конфигурация">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/Initializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/Initializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "build.tools"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -99,11 +96,20 @@
       <option name="project" value="LOCAL" />
       <updated>1744523853604</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="добавлены AppiumDriver, DesiredCapabilities и конфигурация">
+      <option name="closed" value="true" />
+      <created>1744526806259</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744526806259</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="добавлены зависимости и структура проекта" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлены зависимости и структура проекта" />
+    <MESSAGE value="добавлены AppiumDriver, DesiredCapabilities и конфигурация" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены AppiumDriver, DesiredCapabilities и конфигурация" />
   </component>
 </project>

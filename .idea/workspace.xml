@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b69f3a29-ff93-4ecc-98f0-175814838d0b" name="Changes" comment="added basic methods and interfaces">
+    <list default="true" id="b69f3a29-ff93-4ecc-98f0-175814838d0b" name="Changes" comment="added wait, tap, scroll methods">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/enums/LoginTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mobile/screens/ProfileScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/screens/BaseScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/screens/BaseScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/locators/JoomHomeLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/locators/JoomHomeLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/screens/JoomHomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/screens/JoomHomeScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +124,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744980890104</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added wait, tap, scroll methods">
+      <option name="closed" value="true" />
+      <created>1744983083156</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744983083156</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added wait, tap, scroll methods">
+      <option name="closed" value="true" />
+      <created>1744983251748</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744983251748</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -129,6 +148,7 @@
     <MESSAGE value="добавлены AppiumDriver, DesiredCapabilities и конфигурация" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="added basic methods and interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="added basic methods and interfaces" />
+    <MESSAGE value="added wait, tap, scroll methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="added wait, tap, scroll methods" />
   </component>
 </project>
